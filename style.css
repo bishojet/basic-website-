@@ -9,19 +9,61 @@ body{
 	line-height: 18px;
 	color: #000;
 }
+.clear{
+	overflow: hidden;
+}
 
 .templete {
 	width: 960px;
 	background-color: #ddd;
-	margin-bottom: 10px;
+	margin: 0 auto;
 }
-.header {}
-.header h2{}
-.navigation {}
-.content {}
-.maincontent {}
+.header {
+	height: 85px;
+	background-color: black;
+	color: white;
+}
+.header h2{
+	font-size: 40px;
+	text-align: center;
+	padding-top: 30px;
+}
+.navigation {
+	height: 30px;
+	background-color: #9B999a;
+}
+.navigation p{
+	padding-left: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+.content {
+	background-color: white;
+}
+.maincontent {
+	width: 650px;
+	padding: 10px;
+	margin: 15px 15px 15px 0;
+	background-color: #DFDFDF;
+	float: left;
+}
 .maincontent p {}
-.sidebar {}
+.sidebar {
+	width: 255px;
+	background-color: #bbb9ba;
+	float: right;
+	margin-top: 15px;
+	padding: 10px;
+}
 .sidebar p {}
-.footer {}
-.footer p {}
+.footer {
+	height: 90px;
+	background-color: #555555;
+}
+.footer p {
+	font-weight: 20px;
+	text-align: center;
+	color: white;
+	padding-top: 30px; 
+}
