@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body{
+	font-family: arial;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000;
+}
+
+.templete {
+	width: 960px;
+	background-color: #ddd;
+	margin-bottom: 10px;
+}
+.header {}
+.header h2{}
+.navigation {}
+.content {}
+.maincontent {}
+.maincontent p {}
+.sidebar {}
+.sidebar p {}
+.footer {}
+.footer p {}
