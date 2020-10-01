@@ -20,7 +20,7 @@ body{
 }
 .header {
 	height: 85px;
-	background-color: black;
+	background-color: #B7801C;
 	color: white;
 }
 .header h2{
@@ -29,7 +29,7 @@ body{
 	padding-top: 30px;
 }
 .navigation {
-	background-color: #9B999a;
+	background-color: #e6af4b;
 }
 .navigation ul{
 	margin: 0;
@@ -41,18 +41,18 @@ body{
 	float: left;
 }
 .navigation ul li a{
+	background-color: #c48d29;
+	color: #fff;
 	display: block;
-	background-color: #DFDFDF;
 	text-decoration: none;
 	padding: 5px 25px;
 	font-size: 18px;
-	color: #444;
 	margin: 5px;
 	font-weight: bold;
 }
 .navigation ul li a:hover {
-	background-color: black;
-	color: white;
+	background-color: #FEF4E5;
+	color: #333;
 }
 
 .content {
@@ -61,10 +61,11 @@ body{
 
 }
 .maincontent {
-	width: 650px;
-	padding: 10px;
+	width: 628px;
+	border: 1px solid #B7801C;
+	padding: 10px 15px;
 	margin: 15px 15px 15px 0;
-	background-color: #DFDFDF;
+	background-color: #f3f4e5;
 	float: left;
 }
 
@@ -72,7 +73,8 @@ body{
 .post h2{
 	font-size: 22px;
 	padding: 10px;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid #e0d6c7;
+	color: #ac7511;
 	margin-bottom: 10px;
 }
 .post img{
@@ -81,7 +83,7 @@ body{
 	margin-right: 10px;
 	padding: 5px;
 	background-color: #fff;
-	border: 1px solid #9B999a;
+	border: 1px solid #ebb450;
 }
 .post p{
 	font-size: 16px;
@@ -95,21 +97,22 @@ body{
 }
 .readmore a{
 	text-decoration: none;
-	background-color: #C0C0C0;
-	color: #000;
+	background-color: #fff;
+	color: #B7801C;
 	font-size: 17px;
 	padding: 7px 10px;
 	border-radius: 5px;
-	border: 1px solid #9B999a;
+	border: 1px solid #B7801C;
 }
 .readmore a:hover {
-	background-color: #9B999a;
+	background-color: #B7801C;
 	color: #fff;
 }
 
 .sidebar {
-	width: 255px;
-	background-color: #bbb9ba;
+	width: 257px;
+	background-color: #f3f4e5;
+	border: 1px solid #B7801C;
 	float: right;
 	margin-top: 15px;
 	padding: 10px;
@@ -119,18 +122,18 @@ body{
 }
 
 .same_sidebar h2{
-	background-color: #9b999a;
+	background-color: #e6af4b;
 	padding: 10px;
 	color: white;
 	margin-bottom: 8px;
-	border-bottom: 2px solid #555555;
+	border-bottom: 2px solid #e0d6c;
 }
 .same_sidebar p{
 	margin-bottom: 10px;
 }
 .footer {
 	height: 90px;
-	background-color: #555555;
+	background-color: #B7801C;
 }
 .footer p {
 	font-weight: 20px;
