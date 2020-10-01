@@ -19,15 +19,39 @@ body{
 	margin: 0 auto;
 }
 .header {
-	height: 85px;
 	background-color: #B7801C;
 	color: white;
 }
-.header h2{
-	font-size: 40px;
-	text-align: center;
-	padding-top: 30px;
+.logo{
+	width: 430px;
+	float: left;
 }
+.logo img {
+	width: 80px;
+    float: left;
+    padding: 10px;
+}
+.logo h2 {
+	color: #fff;
+	margin-top: 28px;
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow: 2px 2px 0 #666;
+	margin-bottom: 10px;
+}
+.logo p {
+	color: #e6af4b;
+}
+.social{
+	width: 250px;
+	float: right;
+    margin-top: 20px;
+}
+.social img {
+	width: 50px;
+	padding: 3px;
+}
+
 .navigation {
 	background-color: #e6af4b;
 }
@@ -42,6 +66,8 @@ body{
 }
 .navigation ul li a{
 	background-color: #c48d29;
+	border: 1px solid #B7801C;
+	border-radius: 5px;
 	color: #fff;
 	display: block;
 	text-decoration: none;
@@ -52,6 +78,7 @@ body{
 }
 .navigation ul li a:hover {
 	background-color: #FEF4E5;
+	border: 1px solid #B7801C;
 	color: #333;
 }
 
