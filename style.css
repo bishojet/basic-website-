@@ -50,6 +50,10 @@ body{
 	margin: 5px;
 	font-weight: bold;
 }
+.navigation ul li a:hover {
+	background-color: black;
+	color: white;
+}
 
 .content {
 	background-color: white;
