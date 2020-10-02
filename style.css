@@ -18,6 +18,37 @@ body{
 	background-color: #ddd;
 	margin: 0 auto;
 }
+
+input[type="text"],input[type="email"]{
+	width: 400px;
+	padding: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border-radius: 3px;
+	border: 1px solid #B7801C;
+}
+input[type="submit"]{
+	background-color: #B7801C;
+	border: 1px solid #e6af4b;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 3px 10px;
+	border-radius: 5px;
+}
+input[type="submit"]:hover{
+	background-color: #FEF4E5;
+	border: 1px solid #B7801C;
+	color: #333;
+}
+textarea{
+	height: 220px;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 400px;
+	border: 1px solid #e6af4b;
+}
+
 .header {
 	background-color: #B7801C;
 	color: white;
@@ -90,8 +121,8 @@ body{
 .content {
 	background-color: white;
 	margin-bottom: 15px;
-
 }
+
 .maincontent {
 	width: 628px;
 	border: 1px solid #B7801C;
@@ -100,9 +131,26 @@ body{
 	background-color: #f3f4e5;
 	float: left;
 }
+.about{}
+
+.about img{
+	background-color: #fff;
+	border: 1px solid #B7801C;
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+	width: 300px;
+}
+.about p{
+	font-size: 16px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
 
 .post{}
-.post h2{
+.post h2, .about h2 {
 	font-size: 22px;
 	padding: 10px;
 	border-bottom: 2px solid #e0d6c7;
@@ -209,8 +257,7 @@ body{
 	margin-right: 8px;
 }
 .footermenu p{
-	margin-bottom: 5px;
-
+	margin-bottom: 10px;
 }
 
 
