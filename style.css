@@ -12,7 +12,6 @@ body{
 	color: #000;
 	background-image: url(image/bg.png);
   	background-attachment: fixed;
-  	position: relative;
 }
 .clear{
 	overflow: hidden;
@@ -20,6 +19,12 @@ body{
 
 .templete {
 	width: 960px;
+	background-color: #ddd;
+	margin: 0 auto;
+}
+
+.contemplete{
+	width: 928px;
 	background-color: #ddd;
 	margin: 0 auto;
 }
@@ -55,7 +60,7 @@ textarea{
 }
 
 .header {
-	background-color: #B7801C;
+	background-color: #ca932f;
 	color: white;
 }
 .logo{
@@ -76,7 +81,7 @@ textarea{
 	margin-bottom: 10px;
 }
 .logo p {
-	color: #e6af4b;
+	color: #fff;
 }
 .social{
 	width: 250px;
@@ -123,14 +128,17 @@ textarea{
 }
 
 .content {
-	background-color: white;
-	margin-bottom: 15px;
+	background-color: #ffffff;
+	padding: 15px;
+	border: 1px solid #ca932f;
 }
 
+
+
 .maincontent {
-	width: 628px;
-	border: 1px solid #B7801C;
-	padding: 10px 15px;
+	width: 600px;
+	border: 1px solid #ded4c5;
+	padding: 8px 15px;
 	margin: 0px 15px 15px 0;
 	background-color: #f3f4e5;
 	float: left;
@@ -139,7 +147,7 @@ textarea{
 
 .about img{
 	background-color: #fff;
-	border: 1px solid #B7801C;
+	border: 1px solid #ded4c5;
 	float: left;
 	margin-right: 10px;
 	padding: 5px;
@@ -159,7 +167,7 @@ textarea{
 	color: #000 !important;
 }
 .relatedpost img{
-	width: 187px;
+	width: 178px;
 	float: center;
 	height: 150px;
 	margin-bottom: 10px;
@@ -182,7 +190,7 @@ textarea{
 	margin-right: 10px;
 	padding: 5px;
 	background-color: #fff;
-	border: 1px solid #ebb450;
+	border: 1px solid #ded4c5;
 }
 .post p{
 	font-size: 16px;
@@ -211,7 +219,7 @@ textarea{
 .sidebar {
 	width: 257px;
 	background-color: #f3f4e5;
-	border: 1px solid #B7801C;
+	border: 1px solid #ded4c5;
 	float: right;
 	padding: 10px;
 }
@@ -272,7 +280,7 @@ textarea{
 	margin-right: 10px;
 	margin-top: 5px;
 	background-color: #fff;
-	border: 1px solid #f6bf5b;
+	border: 1px solid #ded4c5;
 	border-radius: 30px;
 	padding: 3px;
 }
