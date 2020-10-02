@@ -8,6 +8,8 @@ body{
 	font-size: 14px;
 	line-height: 18px;
 	color: #000;
+	background-image: url(image/bg.png);
+  	background-attachment: fixed;
 }
 .clear{
 	overflow: hidden;
