@@ -149,7 +149,7 @@ body{
 	padding: 10px;
 }
 .same_sidebar{
-
+	margin-bottom: 10px;
 }
 
 .same_sidebar h2{
@@ -170,8 +170,16 @@ body{
 	font-size: 16px;
 	padding: 5px 8px 5px 0;
 }
+.same_sidebar ul li:last-child{
+	border-bottom: 0px dashed #e9c05c;
+}
 .same_sidebar ul li a {
 	text-decoration: none;
+	color: #814a00;
+}
+.same_sidebar ul li a:hover{
+	color: #df5c25;
+	font-weight: bold;
 }
 
 .same_sidebar p{
