@@ -12,6 +12,7 @@ body{
 	color: #000;
 	background-image: url(image/bg.png);
   	background-attachment: fixed;
+  	position: relative;
 }
 .clear{
 	overflow: hidden;
@@ -304,4 +305,13 @@ textarea{
 	margin-bottom: 10px;
 }
 
-
+.fixedicon {
+	position: fixed;
+	left: 50;
+	top: 250px;
+	width: 60px;
+	margin-left: 50px;
+}
+.fixedicon img{
+	width: 50px;
+}
