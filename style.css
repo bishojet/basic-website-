@@ -106,7 +106,7 @@ textarea{
 	color: #fff;
 	display: block;
 	text-decoration: none;
-	padding: 5px 25px;
+	padding: 2px 15px 5px;
 	font-size: 18px;
 	margin: 5px;
 	font-weight: bold;
@@ -151,6 +151,21 @@ textarea{
 	text-align: justify;
 }
 
+.relatedpost{}
+.relatedpost h2{
+	background-color: #e6af4b;
+	border-bottom: 2px solid #B7801C !important;
+	color: #000 !important;
+}
+.relatedpost img{
+	width: 187px;
+	float: center;
+	height: 150px;
+	margin-bottom: 10px;
+}
+.relatedpost img:hover{
+	opacity: .4;
+}
 
 .post{}
 .post h2, .about h2 {
@@ -236,6 +251,32 @@ textarea{
 .same_sidebar p{
 	margin-bottom: 10px;
 }
+
+.popular{}
+.popular h3{
+	font-weight: normal;
+	font-size: 18px;
+	border-bottom: 1px dashed #B7801C;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+.popular h3 a{
+	text-decoration: none;
+	color: 444;
+}
+.popular img{
+	width: 55px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+	background-color: #fff;
+	border: 1px solid #f6bf5b;
+	border-radius: 30px;
+	padding: 3px;
+}
+.popular p{}
+
 .footer {
 	height: 90px;
 	background-color: #B7801C;
