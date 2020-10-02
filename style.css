@@ -107,12 +107,11 @@ textarea{
 	margin: 5px;
 	font-weight: bold;
 }
-.navigation ul li a:hover {
+.navigation ul li a:hover, #active {
 	background-color: #FEF4E5;
 	border: 1px solid #B7801C;
 	color: #333;
 }
-
 .slidersection{
 	margin-bottom: 15px;
 	box-shadow: 0px 10px 9px -2px #333;
