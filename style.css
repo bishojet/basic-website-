@@ -448,3 +448,10 @@ textarea{
 .photo:hover img:first-child{
 	transform: scale(1.8);
 }
+
+.googlemap{}
+
+#map {
+      width: 100%;
+      height: 300px;
+}
