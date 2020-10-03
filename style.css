@@ -455,3 +455,11 @@ textarea{
       width: 100%;
       height: 300px;
 }
+.mycounter{
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	background-color: #ca932f;
+	padding: 50px;
+	border-radius: 5px;
+}

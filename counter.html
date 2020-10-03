@@ -48,29 +48,12 @@
 	</div>
 
 	<div class="content contemplete clear">
-		<div class="maincontent clear">
-			<div class="about">
-				<h2>Our Post title Here</h2>
-				<img src="image/post2.png" alt="MyImage">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<div class="myicon">
-					<i class="fa fa-bicycle"></i>
+		<div class="maincontent clear mitem">
+			<div class="photo">
+				<div class="mycounter">
+				    <span class="counter">12345678</span>
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<div class="relatedpost clear">
-					<h2>Related Articles</h2>
-					<a href="#"><img src="image/post2.png" alt="PostImage"></a>
-					<a href="#"><img src="image/post2.png" alt="PostImage"></a>
-					<a href="#"><img src="image/post2.png" alt="PostImage"></a>
-					<a href="#"><img src="image/post2.png" alt="PostImage"></a>
-					<a href="#"><img src="image/post2.png" alt="PostImage"></a>
-					<a href="#"><img src="image/post2.png" alt="PostImage"></a>
-				</div>
-			</div>
+			</div>	
 		</div>
 
 		<div class="sidebar clear">
@@ -128,6 +111,23 @@
  		<a href="http://www.google.com" target="_blank"><img src="image/gl.png" alt="GooglePlus"></a>
  		<a href="http://www.linkedin.com" target="_blank"><img src="image/in.png" alt="LinkedIn"></a>
  	</div>
+
+<!-- Counter -->
+
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+
+	<script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+<!-- Counter -->
+
 
 
 
