@@ -254,6 +254,8 @@ textarea{
 	text-align: justify;
 	margin-bottom: 10px;
 }
+
+
 .readmore{
 	float: right;
 	padding: 10px 0;
@@ -270,6 +272,34 @@ textarea{
 .readmore a:hover {
 	background-color: #B7801C;
 	color: #fff;
+}
+
+
+/*Item Page*/
+.items{
+	margin: 10px auto;
+	height: 250px;
+	width: 400px;
+	position: relative;
+	overflow: hidden;
+}
+.items img{
+	height: 250px;
+	width: 400px;
+}
+.shadow{
+	background-color: rgba(0, 0, 0, .6);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: -100%;
+	transition: .6s;
+	-webkit-transition: .6s;
+	-moz-transition: .6s;
+	-o-transition: .6s;
+}
+.items:hover .shadow{
+	top: 0;
 }
 
 .sidebar {
