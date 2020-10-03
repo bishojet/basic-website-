@@ -104,22 +104,26 @@ textarea{
 .navigation ul li{
 	display: block;
 	float: left;
+	border-left: 1px solid #fdc662;
+	border-right: 1px solid #c18a26;
 }
+.navigation ul li:first-child{
+	border-left: 0px solid #fdc662;
+}
+.navigation ul li:last-child{
+	border-right: 0px solid #c18a26;
+}
+
 .navigation ul li a{
-	background-color: #c48d29;
-	border: 1px solid #B7801C;
-	border-radius: 5px;
 	color: #fff;
 	display: block;
 	text-decoration: none;
-	padding: 2px 15px 5px;
+	padding: 10px;
 	font-size: 18px;
-	margin: 5px;
 	font-weight: bold;
 }
 .navigation ul li a:hover, #active {
 	background-color: #FEF4E5;
-	border: 1px solid #B7801C;
 	color: #333;
 }
 .slidersection{
