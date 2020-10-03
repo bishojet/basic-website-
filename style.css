@@ -123,15 +123,21 @@ textarea{
 	padding: 10px;
 	font-size: 18px;
 	font-weight: bold;
+	-webkit-transition: .35s;
+	-moz-transition: .35s;
+	-o-transition: .35s;
+	transition: .35s;
 }
 .navigation ul li a:hover, #active {
 	background-color: #FEF4E5;
 	color: #333;
+	transition: .35s;
 }
 
 .navigation ul li ul {
   	position: absolute;
   	left: -999999px;
+  	z-index: 999;
 }
 .navigation ul li:hover ul{
 	left: 0px;
