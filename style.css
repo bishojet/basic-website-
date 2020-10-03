@@ -276,6 +276,13 @@ textarea{
 
 
 /*Item Page*/
+.mitem p{
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+
 .items{
 	margin: 10px auto;
 	height: 250px;
@@ -297,6 +304,19 @@ textarea{
 	-webkit-transition: .6s;
 	-moz-transition: .6s;
 	-o-transition: .6s;
+}
+.ourtext{
+	margin-top: 100px;
+	border: 1px solid #fff;
+	padding: 5px;
+}
+.ourtext h2{
+	color: #fff;
+	text-align: center;
+}
+.ourtext p{
+	color: #fff;
+	text-align: center;
 }
 .items:hover .shadow{
 	top: 0;
