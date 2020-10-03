@@ -429,3 +429,22 @@ textarea{
 .fixedicon img{
 	width: 50px;
 }
+
+.photo{
+	width: 300px;
+	height: 200px;
+	margin: 100px 150px 500px auto;
+}
+.photo img{
+	width: 300px;
+	height: 200px;
+	transition: 5s;
+	margin-bottom: 150px;
+}
+
+.photo:hover img:last-child{
+	transform: rotate(360deg);
+}
+.photo:hover img:first-child{
+	transform: scale(1.8);
+}
