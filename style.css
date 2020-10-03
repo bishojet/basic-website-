@@ -62,6 +62,7 @@ textarea{
 .header {
 	background-color: #ca932f;
 	color: white;
+	min-height: 100px;
 }
 .logo{
 	width: 430px;
@@ -95,6 +96,7 @@ textarea{
 
 .navigation {
 	background-color: #e6af4b;
+	min-height: 38px;
 }
 .navigation ul{
 	margin: 0;
@@ -106,6 +108,7 @@ textarea{
 	float: left;
 	border-left: 1px solid #fdc662;
 	border-right: 1px solid #c18a26;
+	position: relative;
 }
 .navigation ul li:first-child{
 	border-left: 0px solid #fdc662;
@@ -113,7 +116,6 @@ textarea{
 .navigation ul li:last-child{
 	border-right: 0px solid #c18a26;
 }
-
 .navigation ul li a{
 	color: #fff;
 	display: block;
@@ -126,10 +128,28 @@ textarea{
 	background-color: #FEF4E5;
 	color: #333;
 }
-.slidersection{
-	margin-bottom: 15px;
-	box-shadow: 0px 10px 9px -2px #333;
+
+.navigation ul li ul {
+  	position: absolute;
+  	left: -999999px;
 }
+.navigation ul li:hover ul{
+	left: 0px;
+}
+
+.navigation ul li ul li {
+	background-color: #e6af4b;
+	width: 200px;
+	border-bottom: 1px solid #ca932f;
+	float: none;
+	border-left: 0px solid #fdc662; 
+	border-right: 0px solid #c18a26;
+}
+.navigation ul li ul li:last-child{
+	border-bottom: 0px solid #ca932f;
+}
+
+.slidersection {}
 
 .content {
 	background-color: #ffffff;
