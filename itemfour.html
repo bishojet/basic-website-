@@ -49,29 +49,41 @@
 	</div>
 
 	<div class="content contemplete clear">
-		<div class="maincontent clear">
-			<div class="about">
-				<h2>Our Post title Here</h2>
-				<img src="image/post2.png" alt="MyImage">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<div class="myicon">
-					<i class="fa fa-bicycle"></i>
+		<div class="maincontent clear mitem">
+			<div class="sorting">
+				<h2>All Categories</h2>
+				<div id="filters" class="button-group">  <button class="button is-checked" data-filter="*">All Image</button>
+					<button class="button" data-filter=".metal">HTML</button>
+					<button class="button" data-filter=".transition">CSS</button>
+					<button class="button" data-filter=".alkali, .alkaline-earth">JavaScript</button>
+					<button class="button" data-filter=":not(.transition)">jQuery</button>
+					<button class="button" data-filter=".metal:not(.transition)">PHP</button>
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<div class="relatedpost clear">
-					<h2>Related Articles</h2>
-					<a href="#"><img src="image/post2.png" alt="PostImage"></a>
-					<a href="#"><img src="image/post2.png" alt="PostImage"></a>
-					<a href="#"><img src="image/post2.png" alt="PostImage"></a>
-					<a href="#"><img src="image/post2.png" alt="PostImage"></a>
-					<a href="#"><img src="image/post2.png" alt="PostImage"></a>
-					<a href="#"><img src="image/post2.png" alt="PostImage"></a>
+
+				<div class="grid">
+					<div class="element-item transition metal " data-category="transition">
+						<img src="image/java.jpg" alt="Java">
+					</div>
+					<div class="element-item metalloid " data-category="metalloid">
+						<img src="image/php.png" alt="PHP">
+					</div>
+					<div class="element-item post-transition metal " data-category="post-transition">
+					    <img src="image/java.jpg" alt="Java">
+					</div>
+					<div class="element-item post-transition metal " data-category="post-transition">
+					    <img src="image/php.png" alt="PHP">
+					</div>
+					<div class="element-item transition metal " data-category="transition">
+					    <img src="image/java.jpg" alt="Java">
+					</div>
+					<div class="element-item alkali metal " data-category="alkali">
+					    <img src="image/php.png" alt="PHP">
+					</div>
+					<div class="element-item alkali metal " data-category="alkali">
+					    <img src="image/java.jpg" alt="Java">
+					</div>
 				</div>
-			</div>
+			</div>	
 		</div>
 
 		<div class="sidebar clear">
@@ -129,6 +141,25 @@
  		<a href="http://www.google.com" target="_blank"><img src="image/gl.png" alt="GooglePlus"></a>
  		<a href="http://www.linkedin.com" target="_blank"><img src="image/in.png" alt="LinkedIn"></a>
  	</div>
+
+<!-- Counter -->
+
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/isotopeoption.js"></script>
+
+	<script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+<!-- Counter -->
+
 
 
 
